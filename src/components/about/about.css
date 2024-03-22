@@ -12,6 +12,12 @@
   margin-bottom: 20px;
   line-height: 30px;
 }
+video{
+  position: relative; 
+  top: 0;
+  width: 600px;
+  height: 400px;
+}
 @media screen and (max-width: 768px) {
   .about .container {
     flex-direction: column;
@@ -19,7 +25,7 @@
   .about p {
     padding: 0;
   }
-  .about .container img {
+  .about .container video {
     margin-top: 50px;
   }
 }

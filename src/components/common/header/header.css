@@ -27,12 +27,19 @@ header span {
   margin-right: 4px;
   font-weight: 400;
 }
+.logoo{
+  font-size:30px;
+  color: #27ae60;
+}
 header h4 {
   font-weight: 500;
   margin-right: 20px;
 }
 header .toggle {
   display: none;
+}
+.btn1{
+  border-radius: 30px;
 }
 @media screen and (max-width: 768px) {
   header {
