@@ -7,6 +7,7 @@ import About from "../about/About"
 import Blog from "../blog/Blog"
 import Services from "../services/Services"
 import Contact from "../contact/Contact"
+import Sign from "../Sign/sign"
 
 const Pages = () => {
   return (
@@ -19,6 +20,7 @@ const Pages = () => {
           <Route exact path='/services' component={Services} />
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/sign' component={Sign} />
         </Switch>
         <Footer />
       </Router>

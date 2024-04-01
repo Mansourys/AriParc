@@ -7,6 +7,16 @@ header {
   top: 0;
   z-index: 99999;
 }
+header .lin{
+  border-radius: 30px;
+  background: #27ae60;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 17px;
+  width: 90px;
+}
 header img {
   width: 170px;
 }
@@ -27,9 +37,16 @@ header span {
   margin-right: 4px;
   font-weight: 400;
 }
+.lin{
+  color: #fff;
+  font-size:15px;
+}
 .logoo{
-  font-size:30px;
-  color: #27ae60;
+  top: 0;
+  width: 135px;
+  height: 48px  ;
+  position: relative;
+  
 }
 header h4 {
   font-weight: 500;
@@ -40,13 +57,14 @@ header .toggle {
 }
 .btn1{
   border-radius: 30px;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   header {
     padding: 0;
   }
   header img {
-    margin-top: 30px;
+    margin-top: 7px;
   }
   header .button {
     display: none;
@@ -56,7 +74,7 @@ header .toggle {
   }
   header .toggle {
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   header .small {
     position: absolute;

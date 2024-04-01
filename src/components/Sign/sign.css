@@ -1,0 +1,37 @@
+.container-form{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 60vh;
+    top: 0;
+}
+
+.container-form  form div {
+    display: block;
+  }
+  .container-form    input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .container-form  h4 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .container-form  form div {
+      flex-direction: column;
+    }
+    .container-form  input {
+      width: 100%;
+    }
+    .container-form  button{
+        border-radius: 5px;
+        padding: 17px 30px;
+        background: #27ae60;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+  }
+  
