@@ -2,8 +2,10 @@
   width: 360px;
   padding: 8% 0 0; 
   margin: auto;
+   
 }
 .form {
+  border-radius: 50px;
  position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -53,11 +55,6 @@
 .form #register-form {
   display: none;
 }
-/* .container:before, .container:after {
-  content: "";
-  display: block;
-  clear: both;
-} */
 .container .info {
   margin: 50px auto;
   text-align: center;

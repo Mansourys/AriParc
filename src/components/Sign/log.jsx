@@ -5,7 +5,7 @@ function LoginPage() {
     const [showLoginForm, setShowLoginForm] = useState(true);
 
     const toggleForm = () => {
-        setShowLoginForm(prevState => !prevState);
+        setShowLoginForm(false);
     };
 
     return (
